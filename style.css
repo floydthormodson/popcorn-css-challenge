@@ -23,6 +23,9 @@ button{
 .container{
  margin:auto;
 }
+.smalltxt{
+    text-size-adjust: 50;
+}
 .card{
     background-color: white;
     text-decoration-color: black;
