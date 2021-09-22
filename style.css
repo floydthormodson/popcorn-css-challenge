@@ -16,6 +16,8 @@ h1{
     margin-top:0;
     width: 100%;
     display:inline-block;
+    border-bottom: 3px solid black;
+    
 }
 
 button{
@@ -26,7 +28,6 @@ button{
     font-size: 25px;
     font-family: arial;
     border: 5px;
-    margin: auto;
     padding:10px;
     margin-top: 10px;
     margin-left: 10px;
@@ -51,6 +52,7 @@ button{
     background-color: white;
     text-decoration-color: black;
     text-align:center;
+    padding:10px;
     width: 25%;
     height: 15%;
     margin-top: 10px;
@@ -73,7 +75,7 @@ button{
 
 #small{
     width:25%;
-    height: 15%;
+    height: 20%;
     font-size: 25px;
     font-family: arial;
     display:inline-block;
@@ -81,7 +83,7 @@ button{
 
 #large{
     width:75%;
-    height: 15%;
+    height: 20%;
     font-size: 25px;
     font-family: arial;
 }
