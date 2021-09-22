@@ -3,7 +3,15 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
-header {
+h1{
+    color:#553100
+}
+#tan{
     background-color: #FFDBAA;
+}
+
+button{
+    text-align: center;
+    text-decoration-color: white;
+    padding: 15px 32px
 }
