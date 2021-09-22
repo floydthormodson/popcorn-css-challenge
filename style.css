@@ -9,6 +9,9 @@ Main background - #D4A76A*/
 h1{
     color:#553100;
 }
+header{
+    display:inline-block;
+}
 #tan{
     background-color: #FFDBAA;
     margin-top:0;
@@ -23,17 +26,18 @@ button{
     font-size: 25px;
     margin: auto;
     padding:10px;
+    display:inline-block;
 
 }
 
 
 
 .container{
-    float:center; 
     margin:7px;
 }
 .smalltxt{
     font-size: 15px;
+    font: arial;
 }
 .card{
     background-color: white;
@@ -42,8 +46,17 @@ button{
     width: 25%;
     height: 15%;
     margin: auto;
-    float: center;
+    display:inline-block;
 }
+.card1{
+    background-color: white;
+    text-decoration-color: black;
+    text-align:center;
+    width: 25%;
+    height: 15%;
+    margin: auto;
+}
+
 #small{
     width:25%;
     height: 15%;
