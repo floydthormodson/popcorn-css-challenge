@@ -19,11 +19,20 @@ button{
     text-decoration-color: white;
     padding: 15px 32px
 }
+
+.container{
+ margin:auto;
+}
 .card{
     background-color: white;
     text-decoration-color: black;
     text-align:center;
     width: 25%;
     height: 15%;
-    margin: 15;
+    margin: auto;
+}
+
+#large{
+    width:75%;
+    height: 15%;
 }
