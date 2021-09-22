@@ -8,14 +8,14 @@ Main background - #D4A76A*/
 }
 h1{
     color:#553100;
+    font-family: arial;
 }
-header{
-    display:inline-block;
-}
+
 #tan{
     background-color: #FFDBAA;
     margin-top:0;
     width: 100%;
+    display:inline-block;
 }
 
 button{
@@ -24,20 +24,28 @@ button{
     background-color: #553100;
     padding: 15px 32px;
     font-size: 25px;
+    font-family: arial;
+    border: 5px;
     margin: auto;
     padding:10px;
-    display:inline-block;
-
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-
-
-
-.container{
-    margin:7px;
+.top{
+    display:inline-block;
+}
+#right{
+    float:right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .smalltxt{
     font-size: 15px;
-    font: arial;
+    font-family: arial;
 }
 .card{
     background-color: white;
@@ -45,8 +53,11 @@ button{
     text-align:center;
     width: 25%;
     height: 15%;
-    margin: auto;
-    display:inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
 }
 .card1{
     background-color: white;
@@ -54,17 +65,23 @@ button{
     text-align:center;
     width: 25%;
     height: 15%;
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #small{
     width:25%;
     height: 15%;
     font-size: 25px;
+    font-family: arial;
+    display:inline-block;
 }
 
 #large{
     width:75%;
     height: 15%;
     font-size: 25px;
+    font-family: arial;
 }
