@@ -3,15 +3,27 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+.corkboard {
+    background-color: #D4A76A ;
+}
 h1{
     color:#553100
 }
 #tan{
     background-color: #FFDBAA;
+    margin-top:0;
 }
 
 button{
     text-align: center;
     text-decoration-color: white;
     padding: 15px 32px
+}
+.card{
+    background-color: white;
+    text-decoration-color: black;
+    text-align:center;
+    width: 25%;
+    height: 15%;
+    margin: 15;
 }
