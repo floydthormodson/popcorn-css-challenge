@@ -7,24 +7,33 @@ Main background - #D4A76A*/
     background-color: #D4A76A ;
 }
 h1{
-    color:#553100
+    color:#553100;
 }
 #tan{
     background-color: #FFDBAA;
     margin-top:0;
+    width: 100%;
 }
 
 button{
     text-align: center;
-    text-decoration-color: white;
-    padding: 15px 32px
+    color: white;
+    background-color: #553100;
+    padding: 15px 32px;
+    font-size: 25px;
+    margin: auto;
+    padding:10px;
+
 }
 
+
+
 .container{
- margin:auto;
+    float:center; 
+    margin:7px;
 }
 .smalltxt{
-    text-size-adjust: 50;
+    font-size: 15px;
 }
 .card{
     background-color: white;
@@ -33,9 +42,16 @@ button{
     width: 25%;
     height: 15%;
     margin: auto;
+    float: center;
+}
+#small{
+    width:25%;
+    height: 15%;
+    font-size: 25px;
 }
 
 #large{
     width:75%;
     height: 15%;
+    font-size: 25px;
 }
